@@ -1,0 +1,12 @@
+print("\033[1;35m"+"----------------------------------------------")
+os= input("\033[1;31m"+"Cual es tu sistema operativo: ")
+version= input("\033[1;31m"+"Cual es la version de tu OS: ")
+basado= input("\033[1;31m"+"Cual es el sistema operativo basado: ")
+lenguaje= input("\033[1;31m"+"Que lenguajes de programacion sabes: ")
+print("\033[2J\033[1;1f") # Borrar pantalla y situar cursor
+print("\033[1;31m"+"----------------------------------------------")
+print("\033[1;34m"+"Tu sistema operativo es "+ os)
+print("\033[1;34m"+"Tu version del OS es "+ version)
+print("\033[1;34m"+"Tu OS esta basado en "+ basado)
+print("\033[1;34m"+"Los lenguajes de programacion que sabes son "+ lenguaje)
+print("\033[1;31m"+"----------------------------------------------")
